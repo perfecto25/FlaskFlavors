@@ -1,0 +1,9 @@
+<html>
+    {% if current_user.is_authenticated %}
+        Hi {{ current_user.username }}!
+    {% endif %}
+
+    <body>
+        <div style="background-color:yellow">Flavor is Banana!</div>
+    </body>
+</html>
